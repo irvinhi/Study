@@ -4,6 +4,6 @@
 #Area = 3.8013271108436504
 
 import math
-
-area = int(input())*math.pi
+r = float(input())
+area = math.pi * r * r
 print(area)
