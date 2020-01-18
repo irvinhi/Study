@@ -375,4 +375,56 @@ Set
 data type mutable & unordered
 """
 #Ex
-number = [1,4,53,2,34,55,]
+number = [1,4,53,2,34,55]
+unique_num = set(number)
+print(unique_num)
+
+# %%
+buah = {"apel","mangga","orange","grape"}
+print("watermelon" in buah)
+buah.add("watermelon")
+print("watermelon" in buah)
+
+print(buah.pop())
+print(buah)
+# %%
+a = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+b = set(a)
+print(len(a) - len(b))
+"""
+6, because a=10 b=4
+set only count unique data
+"""
+# %%
+"""
+Dictionaries And Identity Operators
+Dictionaries = mutable data that store data and immutable unique keys
+"""
+elements = {"air":1,"tanah":2,"api":3,"udara":4,"air":2}
+print(elements["tanah"]) #shows unique key
+elements["petir"]=6 #insert element
+print(elements)
+print("air" in elements)
+print(elements.get("air")) #will return value total how many same mutable data
+
+nigga = elements.get("dark")
+print (nigga is None)
+print (nigga is not None)
+
+# %%
+"""
+QUESTION 4 OF 5
+
+What will the output of the following code be? (Treat the commas in the multiple choice answers as newlines.)
+
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+
+print(a == b) A=B True
+print(a is b) True
+print(a == c) True
+print(a is c) False because they are not identical
+"""
+
+# %%
