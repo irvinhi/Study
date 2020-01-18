@@ -354,7 +354,7 @@ sorted()
 teststring ="\n".join(["anjing","babi","kimak","bgst"]) #insert string that assigned in the last string
 print(teststring)
 
-teststring ="\n".joi(["anjing","babi","kimak","bgst"])
+teststring ="\n".join(["anjing","babi","kimak","bgst"])
 # %%
 """
 Tuples = data structure that immutable and ordered. used for save information
@@ -375,3 +375,4 @@ Set
 data type mutable & unordered
 """
 #Ex
+number = [1,4,53,2,34,55,]
